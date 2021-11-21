@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/03.css">
+    
+</head>
+<body>
+<h1>Основні властивості CSS для роботи з текстом</h1>
+<div>
+<h2>Властивість font-size</h2>
+<div class="text-red">
+    <p>Властивість <a class="text-select">font-size</a> встановлює розмір шрифту. </p>
+    <p>Розмір шрифту - це висота від базової лінії літери до її верхнього краю.</p>
+</div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+<pre>
+ p {
+    font-size: 20px;
+ }
+</pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+&lt;p&gt;Hello,world!!&lt;/p&gt;
+</div>
+
+<h3>Результат:</h3>
+
+<div class="bauble"> <p style=font-size:20px; >Hello,world!!</p></div>
+</div>
+
+<div>
+<h2>Властивість font-weight</h2>
+<div class="text-red"><p>Властивість <a class="text-select" >font-weight</a> встановлює товщину шрифта.<br>
+    Вага шрифтів, доступних вам, залежить від сімейства шрифтів, який ви використовуєте. <br>
+    Деякі шрифти мають обличчя символів лише для нормальної (<a class="text-select">normal</a>) та жирної (<a class="text-select">bold</a>) товщини. <br>
+    Для таких шрифтів жирність <a class="text-select">100-500 - normal</a> , а <a class="text-select">600-900 - bold</a>.</p></div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+    <pre>
+  p {
+    font-weight: normal ;
+    }
+   a{
+    font-weight: bolder ;
+    }
+    </pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+    &lt;p&gt;Hello, &lt;/p&gt;<br>
+    &lt;a&gt; world!!&lt;/a&gt;
+</div>
+<h3>Результат:</h3>
+<div class="bauble">
+<p style="font-weight:lighter;"> Hello, </p>
+<a style="font-weight:bolder;">world!!</a> 
+</div>
+</div>
+
+<div>
+<h2>Властивість font-style</h2>
+<div class="text-red">
+<p><a class="text-select">font-style</a> це CSS-властивість визначальне яким чином шрифт має бути стилізований, 
+    чи це <a class="text-select">normal</a>,<a class="text-select">italic</a> , чи <a class="text-select">oblique</a>.</p>
+</div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+<pre>
+one {
+    font-style: normal ;
+    }
+two {
+    font-style: italic ;
+    }
+    three {
+    font-style: oblique 40deg ;
+    }
+</pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+<p>&lt;p&gt;
+    &lt;a class="one"&gt;one&lt;/a&gt;,
+    &lt;a class="two"&gt;two&lt;/a&gt;,
+    &lt;a class="three"&gt;three&lt;/a&gt;.
+    &lt;/p&gt;</p>
+</div>
+
+<h3>Результат:</h3>
+<div class="bauble">
+    <p>
+        <a style="font-style: normal ;">one</a>,
+        <a style="font-style: italic ;">two</a>,
+        <a style="font-style: oblique 40deg ;">three</a>.
+    </p>
+</div>
+</div>
+
+<div>
+<h2>Властивість font-family</h2>
+<div class="text-red">
+<p>
+    <a class="text-select">font-family</a> визначає пріоритетний список із однієї або декількох назв <br> сімейства шрифтів та/або загальне ім'я шрифту для вибраного елемента.
+</p>
+</div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">   
+<pre>
+one {
+    font-family:  Papyrus, fantasy ;
+    }
+    two {
+    font-family:  "Apple Chancery", cursive ;
+    }
+</pre></div>
+<h4>HTML</h4>
+<div class="bauble">
+    &lt;p&gt;
+    &lt;a class="one"&gt;Papyrus&lt;/a&gt;,
+    &lt;a class="two"&gt;Apple Chancery&lt;/a&gt;.
+    &lt;/p&gt;
+</div>
+<h3>Результат:</h3>
+<div class="bauble">
+    <p>
+        <a style="font-family:  Papyrus, fantasy ;">one</a>,
+        <a style="font-family:  Apple Chancery, cursive ;">two</a>.
+    </p>
+</div>
+</div>
+
+<div>
+<h2>Властивість color</h2>
+<div class="text-red">Модуль <a class="text-select">color</a> детально описує значення, які дозволяють авторам визначати значення якості color.</div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+<pre>
+one {
+    color:red;
+    }
+</pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+    &lt;p&gt;
+    &lt;a class="one"&gt;I&lt;/a&gt; go to
+    &lt;a class="one"&gt;Hell&lt;/a&gt;.
+    &lt;/p&gt;
+</div>
+<h3>Результат:</h3>
+<div class="bauble"><p>
+    <a style="color:red;">I</a> go to
+    <a style=" color:red;">Hell</a>.
+</p></div>
+</div>
+
+<div>
+<h2>Властивість text-transform </h2>
+<div class="text-red">Властивість <a class="text-select"> text-transform</a> вказує, як використовувати великі літери в тексті елемента.<br> 
+    Його можна використовувати, щоб текст відображався у верхньому чи нижньому регістрі або з великими літерами.
+  </div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+<pre>
+one {
+    text-transform: uppercase;
+    }
+two {
+    text-transform: lowercase;
+    }
+</pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+    &lt;p&gt;
+    &lt;a class="one"&gt;Hello&lt;/a&gt; and 
+    &lt;a class="two"&gt;Hello&lt;/a&gt;.
+    &lt;/p&gt;
+</div>
+<h3>Результат:</h3>
+<div class="bauble">
+    <p>
+    <a style="text-transform: uppercase;">Hello</a> and 
+    <a style="text-transform: lowercase;">Hello</a>.
+</p></div>
+</div>
+
+<div>
+<h2>Властивість text-decoration</h2>
+<div class="text-red">Властивість скорочення <a class="text-select">text-decoration</a> встановлює вигляд декоративних ліній у тексті.<br>
+     Це скорочення від <a class="text-select">text-decoration-color</a> , <a class="text-select">text-decoration-style</a> та інші.</div>
+<h3>Синтаксис:</h3>
+<h4>CSS</h4>
+<div class="bauble">
+<pre>
+one {
+    text-decoration-style: double;
+    text-decoration-color: #21ff21;
+    text-decoration: underline;
+    }
+</pre>
+</div>
+<h4>HTML</h4>
+<div class="bauble">
+&lt;p&gt;
+&lt;a class="one"&gt;Hello&lt;/a&gt;, world!! .
+&lt;/p&gt;
+</div>
+<h3>Результат:</h3>
+<div class="bauble">
+<p>
+<a style="text-decoration: underline;text-decoration-style: double;text-decoration-color: #21ff21;">Hello</a>, world!!.
+</p>
+</div>
+</div>
+
+</body>
+</html>
