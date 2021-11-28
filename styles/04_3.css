@@ -1,0 +1,100 @@
+.main
+{
+    width: 1200px;
+    height: 1023px;
+    background-color:rgb(207, 207, 207);
+    margin: 0px 120px 0px 120px;
+}
+.head1
+{
+    width: 1200px;
+    height: 200px;
+    
+}
+.head2
+{
+    width: 1200px;
+    height: 50px; 
+
+    background-color:rgb(6, 0, 97);
+}
+ 
+   
+.head3
+{
+    width: 1200px;
+    height: 773px;
+
+}
+.red_text
+{
+    background-color:rgb(255, 255, 255);
+    width: 1000px;
+    height: 738px;
+    margin: 36px 100px 0px 100px;
+    padding: 30px 0px 0px 0px;
+}
+.box
+{
+    width: 280px;
+    height: 210px;
+    margin: 15px 0px 15px 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+h2
+{
+    display: block;
+    width: 418px;
+    height: 42px;
+    margin: 30px 0px 15px 65px;
+
+}
+.box_1
+{
+    width: 915px;
+    height: 350px;
+    margin: 15px 38px 22px 38px;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+}
+ ul{
+         list-style-type:none;
+         font-size: 24px;
+         padding: 10px  ;
+ }
+li{
+    display: inline-block;
+    padding: 0px 30px  ;
+    color: rgb(255, 255, 255);
+}
+a:link {
+    color: #ffffff; 
+    text-decoration: none;
+}
+  a:hover {
+    text-decoration: underline;
+    color:white;
+  }
+  a:visited {
+    color: #ffffff;
+  }
+  h1{
+    display: inline-block;
+    font-size: 60px;
+    color: #11264E;
+    line-height: 200px;
+    margin: 0px;
+
+  }
+  .photo
+  {
+    width: 250px;
+    height: 170px;
+    display: inline-block;
+     vertical-align:top ;
+     margin: 0px 0px 0px 110px;
+  }

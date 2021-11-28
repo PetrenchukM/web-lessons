@@ -1,0 +1,72 @@
+div
+{
+margin: 30px;
+}
+.one
+{
+    width: 382.6px;
+    height: 13px;
+    padding:  4px 0px 12px 8px;
+
+    border-right-color: rgb(0, 71, 202);
+    border-top-color: rgb(13, 160, 0);
+    border-bottom-color: rgb(228, 0, 0);
+    
+    border-right-width: 7px;
+    border-top-width: 8px;
+
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: inset;
+}
+  
+    
+.two
+{
+    width: 400px;
+    height: 21px;
+
+    padding: 8px 0px ;
+
+    border-bottom-color: rgb(228, 0, 0);
+    
+    text-align:center;
+
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+}
+.three
+{
+    width: 377px;
+    height: 22px;
+    padding:  10px 0px 8px 15px;
+
+    border-left-color: rgb(4, 0, 250);
+    background-color:rgba(155, 190, 255, 0.726);
+
+    border-left-width: 8px;
+
+    border-top-style: none;
+    border-left-style: inset;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.four
+{
+    width: 381.8px;
+    height: 18.8px;
+    padding:  8px 0px 10px 15px;
+
+    border: 2px solid #0000007e;
+    border-radius: 8px;
+    box-shadow: 10px 8px 10px rgba(39, 39, 39, 0.281);
+}
+.four:hover
+{
+    background-color:rgba(55, 125, 255, 0.842);
+    border: 2px solid rgba(55, 125, 255, 0.842);
+    color: white;
+} 
