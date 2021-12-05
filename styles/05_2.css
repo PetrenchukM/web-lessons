@@ -18,11 +18,12 @@
 }
 .box-element{
     height: 100% ;
-    margin: 30px 0px 30px 0px;
+    margin: 50px 0px 50px 0px;
 }
 .vl {
     border-left: 3px solid black;
     height: auto;
+    margin: 0px 20px 0px 0px;
 }
 .text-box{
 font-size: 23px;
