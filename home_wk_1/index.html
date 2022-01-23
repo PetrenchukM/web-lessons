@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/home_wk_1.css" rel="stylesheet" />
+    <title>Створення форм</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Анкета відвідувача ресторана</h1>
+        <fieldset>
+            <legend>Контакти</legend>
+            <div class="box"><label>Імя </label><input type="text"></div>
+            <div class="box"><label>Телефон  </label><input type="tel"></div>
+            <div class="box"><label >Email </label><input type="email"></div>
+            <div class="box"><label >Дата відвідування </label><input type="date"></div>
+           
+        </fieldset>
+        <fieldset>
+            <legend>Персональна інформація</legend>
+            <div class="box"><label>Вік </label><input type="number" min="1" max="120" step="1"></div>
+            <div class="box"><label>Улюблена кухня </label>
+                <select name="food">
+                    <option value="1">Українська</option>
+                    <option value="2">Китайська</option>
+                    <option value="3">Корейська</option>
+                    <option value="4">Італійська</option>
+                    <option value="5">Французька</option>
+                </select>
+            
+            </div>
+            <div class="box"><label>Які страви ви хотіли би бачити в нашому меню?</label><textarea></textarea></div>
+        </fieldset>
+        <fieldset>
+            <legend>Оцінка ресторану</legend>
+            <div class="box"> <label>Як ви дізнались про наш ресторан?</label></div>
+            <div class="check"><input type="radio" name="recl" value="1">Поруч з будинком/роботою</div>
+            <div class="check"><input type="radio" name="recl" value="2">Реклама</div>
+            <div class="check"><input type="radio" name="recl" value="3">Порадили знайомі</div>
+            <div class="check"><input type="radio" name="recl" value="4">Пошук в мережі Інтернет</div>
+            <div class="check"><input type="radio" name="recl" value="5">Інше</div>
+            <div class="box"><label>Чи будете рекомендувати наш ресторан знайомим?</label></div>
+            <div class="check"><input type="radio" name="rep" value="1">Так</div>
+            <div class="check"><input type="radio" name="rep" value="0">Ні</div>
+        </fieldset>
+        <button>Відправити</button>
+    </form>
+</body>
+</html>
