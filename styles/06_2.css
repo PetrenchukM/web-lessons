@@ -1,0 +1,84 @@
+fieldset{
+    background-color: #27293b;
+    border: 3px solid #27293b; 
+    border-radius: 5px; 
+    position: absolute ;
+    top: 20%;
+    left: 40%;
+    padding: 5px 20px 30px 30px;  
+    
+}
+.button_green{
+    border-radius: 0px;   
+    background-color:rgba(0, 163, 0, 0.877);
+    border: 3px solid rgb(0, 163, 0);
+    color:white;
+    width: 115px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+}
+.button_greu{
+    border-radius: 0px;   
+    background-color:rgba(88, 88, 88, 0.781);
+    border: 3px solid rgb(88, 88, 88);
+    color:gray;
+    width: 115px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+}
+
+.label_sign{
+    color:white;
+    margin: 10px 0px 10px 50px;
+    font-size: 18px;
+    width: 160px;
+    
+}
+.block_pole{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text_pole{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+    width: 220px;
+}
+
+input{
+    background-color:#27293b;
+    width: 80px;
+    height: 32px;
+}
+input[type=submit] {
+    width: auto;
+  }
+  
+  input[required]+label {
+    position: relative;
+    color:gray;
+    left: -80px;
+  }
+  input[required]+label:after {
+    content: '*';
+    color: rgb(0, 136, 34);
+  }
+  input[required]:invalid+label {
+    display: inline-block;
+  }
+  input[required]:valid+label {
+    display: none;
+  }
+  .edit{
+      width: 220px;
+  }
+  .end_button{
+    width: 220px;
+    height: 40px;
+    border-radius: 0px;   
+    background-color:rgba(0, 163, 0, 0.877);
+    border: 3px solid rgb(0, 163, 0);
+    color:white;
+    margin: 10px 0px;
+  }
