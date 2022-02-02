@@ -51,10 +51,7 @@ input{
     width: 80px;
     height: 32px;
 }
-input[type=submit] {
-    width: auto;
-  }
-  
+ 
   input[required]+label {
     position: relative;
     color:gray;
